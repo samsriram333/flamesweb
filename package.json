@@ -1,14 +1,21 @@
 {
-    "name": "flames-app",
+    "name": "my-app",
     "version": "1.0.0",
-    "description": "A simple Flames calculator web app",
+    "description": "My app description",
     "main": "index.js",
     "scripts": {
-      "start": "http-server",
-      "vercel-build": "your build command here"
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "vercel-build": "npm run build"
     },
+    "keywords": [
+      "my-app",
+      "example"
+    ],
+    "author": "Your Name",
+    "license": "ISC",
     "dependencies": {
-      "http-server": "^0.12.3"
+      "express": "^4.17.1"
     }
   }
   
